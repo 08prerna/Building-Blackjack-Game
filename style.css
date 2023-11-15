@@ -1,3 +1,32 @@
-body{
+body {
     text-align: center;
+    color: white;
+    background-color: #028644;
+
+}
+
+h1 {
+    color: goldenrod;
+    line-height: 1.5;
+    font-size: 4rem;
+    font-weight: bolder;
+}
+
+.container {
+    width: 60vh;
+    margin: 50px auto;
+}
+
+p {
+    font-size: 2.6rem;
+    font-weight: 700;
+}
+
+button {
+    font-size: 2rem;
+    padding: 10px;
+    background-color: goldenrod;
+    color: #028644;
+    font-weight: bolder;
+    border-style: none;
 }
