@@ -1,11 +1,15 @@
 body {
     text-align: center;
     color: white;
-    background-color: #028644;
-
+    /* background-color: #028644; */
+    background-image: url(images/table.avif);
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 h1 {
+    font-family: 'Montserrat', sans-serif;
     color: goldenrod;
     line-height: 1.5;
     font-size: 4rem;
@@ -13,13 +17,20 @@ h1 {
 }
 
 .container {
-    width: 60vh;
-    margin: 50px auto;
+    width: 60%;
+    margin: 150px auto;
+    border: 5px solid rgba(1, 50, 1, 0.804);
+    padding: 10px;
+    border-radius: 10px;
 }
 
 p {
     font-size: 2.6rem;
     font-weight: 700;
+}
+
+#mess-error {
+    font-style: italic;
 }
 
 button {
@@ -29,4 +40,6 @@ button {
     color: #028644;
     font-weight: bolder;
     border-style: none;
+    margin-bottom: 50px;
+
 }
