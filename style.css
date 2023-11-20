@@ -14,19 +14,19 @@ h1 {
     line-height: 1.5;
     font-size: 4rem;
     font-weight: bolder;
+    margin: 20px;
 }
 
 .container {
     width: 60%;
-    margin: 150px auto;
-    border: 5px solid rgba(1, 50, 1, 0.804);
+    margin: 100px auto;
+    border: 5px groove rgba(1, 50, 1, 0.804);
     padding: 10px;
     border-radius: 10px;
 }
 
 p {
-    font-size: 2.6rem;
-    font-weight: 700;
+    font-size: 2rem;
 }
 
 #mess-error {
@@ -34,12 +34,12 @@ p {
 }
 
 button {
-    font-size: 2rem;
+    font-size: 1.9rem;
     padding: 10px;
     background-color: goldenrod;
     color: #028644;
     font-weight: bolder;
     border-style: none;
-    margin-bottom: 50px;
+    margin: 20px;
 
 }
